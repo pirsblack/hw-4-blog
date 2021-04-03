@@ -1,0 +1,93 @@
+   .section {
+    padding: 2rem 1.5rem;
+    }
+    .venue-showcase {
+    background-color: #363636;
+    padding: 2em;
+    border-radius: .5em;
+    }
+    .is-slightly-rounded {
+    border-radius: 2%;
+    }
+    .venue-data-sm {
+    font-size: .9rem;
+    }
+    .hero.is-primary {
+      background: linear-gradient(29deg, #00d1b2, #00d1b2, #f7f7f7, #00d1b2, #00d1b2);
+    background-size: 1000% 1000%;
+
+    -webkit-animation: header 12s ease infinite;
+    -moz-animation: header 12s ease infinite;
+    -o-animation: header 12s ease infinite;
+    animation: header 12s ease infinite;
+}
+
+@-webkit-keyframes header {
+    0%{background-position:0% 53%}
+    50%{background-position:100% 48%}
+    100%{background-position:0% 53%}
+}
+@-moz-keyframes header {
+    0%{background-position:0% 53%}
+    50%{background-position:100% 48%}
+    100%{background-position:0% 53%}
+}
+@-o-keyframes header {
+    0%{background-position:0% 53%}
+    50%{background-position:100% 48%}
+    100%{background-position:0% 53%}
+}
+@keyframes header {
+    0%{background-position:0% 53%}
+    50%{background-position:100% 48%}
+    100%{background-position:0% 53%}
+}
+.feature-box {
+    margin: 4rem;
+    align-self: center;
+}
+.text {
+    line-height: 26px;
+    font-family: Open Sans,sans-serif;
+    font-weight: 400;
+    color: #6d7d93;
+    letter-spacing: 0;
+} 
+.title {
+    font-size: 28px;
+    line-height: 42px;
+    color: #546496;
+}
+.question {
+    padding: 30px;
+}
+#venue-data-column {
+    padding-left: 3rem;
+}
+.venue-data-group {
+    margin-bottom: 4rem;
+    font-size: 1rem;
+    line-height: 1.6rem;
+}
+.m-t-tiny {
+    margin-top: .125rem;
+}
+.footer {
+  background-color: #363636 ;
+}
+.content h2:not(:first-child) {
+    margin-top: 0;
+}
+.box {
+  background-color: #363636;
+}
+.box-color {
+  background-color: white;
+  }
+.card {
+    min-height: 525px;
+    max-height: 525px;
+}
+.navbar-burger {
+    color: #ffffff;
+}
